@@ -119,24 +119,24 @@ export function Presentation() {
               }
             }}
             className="absolute inset-0 w-full h-full">
-            
+
             {renderSlide()}
           </motion.div>
         </AnimatePresence>
 
         {/* Navigation Overlays */}
-        <button
+        {/* <button
           onClick={prevSlide}
           className={`absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-black/20 hover:bg-black/40 text-white flex items-center justify-center transition-all z-50 ${currentSlide === 1 ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
-          
+
           <ChevronLeft size={24} />
         </button>
         <button
           onClick={nextSlide}
           className={`absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-black/20 hover:bg-black/40 text-white flex items-center justify-center transition-all z-50 ${currentSlide === totalSlides ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
-          
+
           <ChevronRight size={24} />
-        </button>
+        </button> */}
       </div>
     </div>);
 
