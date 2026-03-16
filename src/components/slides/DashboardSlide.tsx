@@ -160,7 +160,7 @@ export function DashboardSlide({ slideNumber, totalSlides }: any) {
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 rounded-full bg-red-500" />
                       <span className="text-white text-sm">
-                        Suv quvuri yorilishi (Yunusobod)
+                        Suv quvuri yorilishi
                       </span>
                     </div>
                     <span className="text-xs bg-red-500/20 text-red-400 px-2 py-1 rounded">
@@ -171,7 +171,7 @@ export function DashboardSlide({ slideNumber, totalSlides }: any) {
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 rounded-full bg-yellow-500" />
                       <span className="text-white text-sm">
-                        Chiroq o'chgan (Chilonzor)
+                        Chiroq o'chgan
                       </span>
                     </div>
                     <span className="text-xs bg-yellow-500/20 text-yellow-400 px-2 py-1 rounded">
