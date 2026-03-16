@@ -130,7 +130,7 @@ export function TitleSlide({ slideNumber, totalSlides }: any) {
           }}
           className="text-3xl font-medium text-[#F59E0B] mb-12 tracking-wide">
 
-          Murojaatdan yechimga — aqlli tarzda
+          Murojaatdan yechimga — samarali va oqilona
         </motion.p>
 
         <motion.div
