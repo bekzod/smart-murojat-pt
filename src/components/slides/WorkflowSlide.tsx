@@ -34,7 +34,7 @@ export function WorkflowSlide({ slideNumber, totalSlides }: any) {
   },
   {
     icon: Brain,
-    text: 'AI muammo turi va shoshilinchligini aniqlaydi',
+    text: "Sun'iy intellekt muammo turi va shoshilinchligini aniqlaydi",
     color: 'bg-purple-500'
   },
   {
@@ -84,7 +84,7 @@ export function WorkflowSlide({ slideNumber, totalSlides }: any) {
       totalSlides={totalSlides}
       title="Ish jarayoni"
       bgVariant="light">
-      
+
       <div className="flex-1 flex items-center justify-center mt-4">
         <div className="grid grid-cols-4 gap-x-6 gap-y-12 w-full max-w-6xl relative">
           {/* Connecting lines - simplified for grid */}
@@ -129,13 +129,13 @@ export function WorkflowSlide({ slideNumber, totalSlides }: any) {
                   delay: originalIndex * 0.15
                 }}
                 className="flex flex-col items-center text-center relative bg-white p-4 rounded-xl shadow-sm border border-slate-100">
-                
+
                 <div className="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-sm shadow-md z-10">
                   {originalIndex + 1}
                 </div>
                 <div
                   className={`w-16 h-16 rounded-full ${step.color} flex items-center justify-center shadow-lg mb-4 text-white`}>
-                  
+
                   <step.icon className="w-8 h-8" />
                 </div>
                 <p className="text-sm font-medium text-slate-700 leading-tight h-10">

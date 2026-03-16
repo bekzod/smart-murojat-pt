@@ -112,7 +112,7 @@ export function TitleSlide({ slideNumber, totalSlides }: any) {
           }}
           className="text-2xl font-medium text-blue-200 mb-8 tracking-wide">
 
-          AI asosidagi murojaat va munitsipal javob platformasi
+          Sun'iy intellekt asosidagi murojaat va munitsipal javob platformasi
         </motion.p>
 
         <motion.p
@@ -149,7 +149,7 @@ export function TitleSlide({ slideNumber, totalSlides }: any) {
           className="px-8 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
 
           <p className="text-xl text-blue-100">
-            Fuqarolar murojaatlari uchun AI asosidagi platforma
+            Fuqarolar murojaatlari uchun Sun'iy intellekt asosidagi platforma
           </p>
         </motion.div>
       </div>

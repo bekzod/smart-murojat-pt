@@ -66,7 +66,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
   },
   {
     icon: Calculator,
-    text: 'Byudjet va texnik xizmat rejalashtirish uchun AI prognozlash'
+    text: "Byudjet va texnik xizmat rejalashtirish uchun Sun'iy intellekt prognozlash"
   }];
 
   return (
@@ -75,7 +75,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
       totalSlides={totalSlides}
       title="Yo'l xaritasi: Kelajak rejalari"
       bgVariant="light">
-      
+
       <div className="flex-1 grid grid-cols-2 gap-12 mt-8">
         {/* Phase 2 */}
         <motion.div
@@ -91,7 +91,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
             duration: 0.6
           }}
           className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden flex flex-col">
-          
+
           <div className="bg-blue-600 p-6 flex items-center space-x-4 text-white">
             <Rocket className="w-10 h-10" />
             <div>
@@ -117,7 +117,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
                   delay: 0.2 + i * 0.1
                 }}
                 className="flex items-center space-x-4">
-                
+
                   <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0">
                     <item.icon className="w-5 h-5 text-blue-600" />
                   </div>
@@ -145,7 +145,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
             delay: 0.3
           }}
           className="bg-white rounded-3xl shadow-xl border border-green-100 overflow-hidden flex flex-col">
-          
+
           <div className="bg-green-600 p-6 flex items-center space-x-4 text-white">
             <Map className="w-10 h-10" />
             <div>
@@ -173,7 +173,7 @@ export function RoadmapSlide({ slideNumber, totalSlides }: any) {
                   delay: 0.6 + i * 0.1
                 }}
                 className="flex items-center space-x-4">
-                
+
                   <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
                     <item.icon className="w-6 h-6 text-green-600" />
                   </div>

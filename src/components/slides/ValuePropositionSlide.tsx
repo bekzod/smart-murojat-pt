@@ -8,7 +8,7 @@ export function ValuePropositionSlide({ slideNumber, totalSlides }: any) {
       slideNumber={slideNumber}
       totalSlides={totalSlides}
       bgVariant="accent">
-      
+
       <div className="flex-1 flex flex-col items-center justify-center text-center px-12 relative">
         <motion.div
           initial={{
@@ -23,7 +23,7 @@ export function ValuePropositionSlide({ slideNumber, totalSlides }: any) {
             duration: 0.6
           }}
           className="mb-8">
-          
+
           <Quote className="w-20 h-20 text-white/20 mx-auto" />
         </motion.div>
 
@@ -41,10 +41,10 @@ export function ValuePropositionSlide({ slideNumber, totalSlides }: any) {
             delay: 0.2
           }}
           className="text-5xl md:text-6xl font-bold text-white leading-tight max-w-5xl mb-16 drop-shadow-lg">
-          
+
           SmartMurojaat mahalliy hokimiyatlarga fuqarolar murojaatlariga tezroq
           javob berishga, dala operatsiyalarini yaxshiroq boshqarishga va
-          shaffof, AI asosidagi xizmat ko'rsatish orqali ishonchni
+          shaffof, Sun'iy intellekt asosidagi xizmat ko'rsatish orqali ishonchni
           mustahkamlashga yordam beradi.
         </motion.h2>
 
@@ -78,7 +78,7 @@ export function ValuePropositionSlide({ slideNumber, totalSlides }: any) {
               delay: 0.6 + i * 0.2
             }}
             className="flex flex-col items-center">
-            
+
               <div className="w-20 h-20 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-4 shadow-xl">
                 <item.icon className="w-10 h-10 text-[#F59E0B]" />
               </div>

@@ -48,9 +48,9 @@ export function AIExampleSlide({ slideNumber, totalSlides }: any) {
     <SlideLayout
       slideNumber={slideNumber}
       totalSlides={totalSlides}
-      title="AI amalda: Haqiqiy misol"
+      title="Sun'iy intellekt amalda: Haqiqiy misol"
       bgVariant="light">
-      
+
       <div className="flex-1 grid grid-cols-[1fr_auto_1fr] gap-8 items-center mt-4">
         {/* Left: Citizen Message */}
         <motion.div
@@ -66,7 +66,7 @@ export function AIExampleSlide({ slideNumber, totalSlides }: any) {
             duration: 0.6
           }}
           className="flex flex-col items-end">
-          
+
           <div className="flex items-center space-x-3 mb-4 self-start ml-12">
             <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center">
               <User className="w-6 h-6 text-slate-500" />
@@ -99,7 +99,7 @@ export function AIExampleSlide({ slideNumber, totalSlides }: any) {
             delay: 0.3
           }}
           className="flex flex-col items-center justify-center px-8">
-          
+
           <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#2563EB] to-[#1E3A5F] flex items-center justify-center shadow-2xl relative z-10">
             <BrainCircuit className="w-12 h-12 text-white" />
             <motion.div
@@ -112,9 +112,9 @@ export function AIExampleSlide({ slideNumber, totalSlides }: any) {
                 duration: 2
               }}
               className="absolute inset-0 rounded-full border-4 border-blue-400" />
-            
+
           </div>
-          <p className="mt-4 font-bold text-[#1E3A5F] text-xl">AI Tahlili</p>
+          <p className="mt-4 font-bold text-[#1E3A5F] text-xl">Sun'iy intellekt Tahlili</p>
         </motion.div>
 
         {/* Right: AI Actions */}
@@ -138,10 +138,10 @@ export function AIExampleSlide({ slideNumber, totalSlides }: any) {
               delay: 0.6 + i * 0.2
             }}
             className="flex items-center space-x-6 relative z-10">
-            
+
               <div
               className={`w-10 h-10 rounded-full ${step.bg} border-4 border-white shadow-md flex items-center justify-center shrink-0`}>
-              
+
                 <CheckCircle2 className={`w-5 h-5 ${step.color}`} />
               </div>
               <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex-1 flex items-center space-x-4">
